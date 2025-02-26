@@ -84,11 +84,9 @@ import urllib.parse
 parsed_url = urllib.parse.urlparse('URL')
 print(parsed_url.query)
 ```
-      ---
+---
 
-[^1]: - HTML의 태그에 기록된 이름을 주시할 것  
-      - 속성명은 보통 `id` (유니크함)  
-      - `class` (중복 가능)로 찾을 때는 예약어이므로 `class_`로 사용해야 오류 방지  
+[^1]: - `class` (중복 가능)로 찾을 때는 예약어이므로 `class_`로 사용해야 오류 방지  
       - `class`가 띄어쓰기로 여러 개 있을 경우, 하나만 사용해도 됨 
       - 글자가 해체되어 있는 경우 상위 `class`사용
 
