@@ -84,7 +84,7 @@ import urllib.parse
 parsed_url = urllib.parse.urlparse('URL')
 print(parsed_url.query)
 ```
----
+      ---
 
 [^1]: - HTML의 태그에 기록된 이름을 주시할 것  
       - 속성명은 보통 `id` (유니크함)  
